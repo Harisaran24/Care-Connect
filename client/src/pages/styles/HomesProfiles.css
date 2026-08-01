@@ -1,0 +1,124 @@
+/* Fixed Background */
+.fixed-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/assets/images/community-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.1;
+    z-index: -1;
+  }
+  
+  .homes-profiles-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar */
+  .homes-sidebar {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    overflow-y: auto;
+  }
+  
+  .homes-list {
+    margin-top: 20px;
+  }
+  
+  .home-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s;
+  }
+  
+  .home-item:hover {
+    background: #f5f5f5;
+  }
+  
+  .home-item.active {
+    background: #e3f2fd;
+  }
+  
+  .home-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Main Content */
+  .profiles-main {
+    flex: 1;
+    padding: 30px;
+    background: rgba(255,255,255,0.9);
+  }
+  
+  .home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .residents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .resident-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .resident-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  .btn-donate, .btn-sponsor {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .select-prompt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: #666;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .homes-profiles-container {
+      flex-direction: column;
+    }
+    
+    .homes-sidebar {
+      width: 100%;
+      height: auto;
+    }
+  }

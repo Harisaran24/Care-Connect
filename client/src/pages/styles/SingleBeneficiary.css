@@ -1,0 +1,76 @@
+.single-beneficiary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.not-found {
+  text-align: center;
+  padding: 5rem;
+  color: #fff;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  color: #fff;
+}
+
+.profile-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.profile-info h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #ddd;
+}
+
+.profile-info p {
+  color: #ddd;
+  margin: 0.5rem 0;
+  line-height: 1.6;
+  
+}
+
+.short-description {
+  font-style: italic;
+  color: #ddd;
+}
+
+.extended-description {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  
+}
+
+.actions {
+  margin-top: 2rem;
+}
+
+.donate-btn {
+  padding: 0.75rem 2rem;
+  background: #ff4d4f;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.donate-btn:hover {
+  background: #e04345;
+}
