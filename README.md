@@ -76,19 +76,19 @@ npm start
 
 ### Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](Screenshots/home.png)
 
 ### Community Page
 
-![Community Page](screenshots/community.png)
+![Community Page](Screenshots/community.png)
 
 ### Beneficiary Profile
 
-![Beneficiary Profile](screenshots/profile.png)
+![Beneficiary Profile](Screenshots/profile.png)
 
 ### Donation Page
 
-![Donation Page](screenshots/donation.png)
+![Donation Page](Screenshots/donation.png)
 
 ## 🔮 Future Enhancements
 
